@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "tier": "S",
+    "name": "Clan Avengers",
+    "cards": ["barbarian", "archer", "valkyrie", "mega_knight", "bandit", "archer_queen"]
+  },
+  {
+    "id": 2,
+    "tier": "S",
+    "name": "Rangers",
+    "cards": ["archer", "knight", "dart_goblin", "valkyrie", "princess", "skeleton_king"]
+  },
+  {
+    "id": 3,
+    "tier": "A",
+    "name": "Goblin Throwers",
+    "cards": ["goblin", "spear_goblin", "bomber", "dart_goblin", "executioner", "goblin_machine"]
+  },
+  {
+    "id": 4,
+    "tier": "A",
+    "name": "Noble Assassins",
+    "cards": ["knight", "goblin", "prince", "royal_ghost", "princess", "golden_knight"]
+  },
+  {
+    "id": 5,
+    "tier": "B",
+    "name": "Undead Brawlers",
+    "cards": ["bomber", "giant_skeleton", "royal_ghost", "skeleton_king", "barbarian", "prince"]
+  }
+]
