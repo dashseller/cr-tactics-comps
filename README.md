@@ -1,8 +1,10 @@
 # Troop IDs Reference
 
-This document provides a reference table for all troop IDs and their corresponding names in the CR Tactics game.
+This document lists all troop IDs and their corresponding display names for the CR Tactics game.
 
-## Troop ID to Name Mapping
+> **Note:** Troop IDs are **kebab-case** (hyphen-separated). Underscore (`_`) forms are deprecated—update any legacy data or code using underscores.
+
+## Troop ID → Name Mapping
 
 | ID | Name |
 |---|---|
@@ -11,40 +13,52 @@ This document provides a reference table for all troop IDs and their correspondi
 | `bomber` | Bomber |
 | `goblin` | Goblins |
 | `knight` | Knight |
-| `spear_goblin` | Spear Goblins |
-| `dart_goblin` | Dart Goblin |
+| `spear-goblin` | Spear Goblins |
+| `dart-goblin` | Dart Goblin |
 | `executioner` | Executioner |
-| `giant_skeleton` | Giant Skeleton |
+| `giant-skeleton` | Giant Skeleton |
 | `pekka` | P.E.K.K.A |
 | `prince` | Prince |
 | `valkyrie` | Valkyrie |
 | `bandit` | Bandit |
-| `goblin_machine` | Goblin Machine |
-| `mega_knight` | Mega Knight |
+| `goblin-machine` | Goblin Machine |
+| `mega-knight` | Mega Knight |
 | `princess` | Princess |
-| `royal_ghost` | Royal Ghost |
-| `archer_queen` | Archer Queen |
-| `golden_knight` | Golden Knight |
-| `skeleton_king` | Skeleton King |
+| `royal-ghost` | Royal Ghost |
+| `archer-queen` | Archer Queen |
+| `golden-knight` | Golden Knight |
+| `skeleton-king` | Skeleton King |
 
 ## Usage
 
-These IDs are used throughout the application:
+These IDs appear in:
 
-- **Team Compositions**: In `team-comps.ts`, the `cards` array contains these troop IDs
-- **Game State**: When placing troops on the board
-- **Filtering**: When searching or filtering troops in the UI
+- **Team Compositions**: (e.g. `team-comps.json`) inside each composition’s `troops` array.
+- **Game State / Board Placement**: Used to reference troop data.
+- **Filtering & Search**: UI components rely on these canonical IDs.
+- **Ruler Field**: Each composition references the active ruler via `"ruler": "<ruler-id>"`. (Currently only one ruler: `royale-king` — adjust if/when more rulers become active.)
 
-## Example
+## Example Composition (JSON)
 
-```typescript
-// In team-comps.ts
+```json
 {
-  id: 1,
-  tier: "S",
-  name: "Clan Avengers",
-  cards: ["barbarian", "archer", "valkyrie", "mega_knight", "bandit", "archer_queen"]
+  "tier": "S",
+  "name": "Clan Avenger",
+  "troops": [
+    { "id": "barbarian", "stars": 2 },
+    { "id": "archer", "stars": 2 },
+    { "id": "valkyrie", "stars": 2 },
+    { "id": "mega-knight", "stars": 2 },
+    { "id": "bandit", "stars": 2 },
+    { "id": "archer-queen", "stars": 2 }
+  ],
+  "ruler": "royale-king",
+  "alts": {
+    "groups": [
+      {
+        "replace": ["mega-knight"],
+        "with": ["pekka"]
+      }
+    ]
+  }
 }
-```
-
-The system automatically resolves these IDs to full troop objects with stats, traits, and images from the `TROOPS` array.
