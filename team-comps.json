@@ -1,8 +1,4 @@
-import { TeamComp } from '@/types/game';
-
-type TeamCompWithoutId = Omit<TeamComp, 'id'>;
-
-const createTeamComps = (): TeamCompWithoutId[] => [
+[
   {
     tier: 'S',
     name: 'Clan Avenger',
@@ -256,10 +252,4 @@ const createTeamComps = (): TeamCompWithoutId[] => [
       ],
     },
   },
-];
-
-// Auto-generate IDs based on array index
-export const teamComps: TeamComp[] = createTeamComps().map((comp, index) => ({
-  ...comp,
-  id: index + 1,
-}));
+]
