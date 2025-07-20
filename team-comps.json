@@ -1,255 +1,237 @@
 [
   {
-    tier: 'S',
-    name: 'Clan Avenger',
-    troops: [
-      { id: 'barbarian', stars: 2},
-      { id: 'archer', stars: 2 },
-      { id: 'valkyrie', stars: 2 },
-      { id: 'mega-knight', stars: 2 },
-      { id: 'bandit', stars: 2 },
-      { id: 'archer-queen', stars: 2 },
+    "tier": "S",
+    "name": "Clan Avenger",
+    "troops": [
+      { "id": "barbarian", "stars": 2 },
+      { "id": "archer", "stars": 2 },
+      { "id": "valkyrie", "stars": 2 },
+      { "id": "mega-knight", "stars": 2 },
+      { "id": "bandit", "stars": 2 },
+      { "id": "archer-queen", "stars": 2 }
     ],
-    ruler: 'royale-king',
-    alts: {
-      groups: [
+    "ruler": "royale-king",
+    "alts": {
+      "groups": [
         {
-          replace: ['mega-knight'],
-          with: ['pekka'],
-        },
-      ],
-    },
+          "replace": ["mega-knight"],
+          "with": ["pekka"]
+        }
+      ]
+    }
   },
   {
-    tier: 'S',
-    name: 'Assassin Ranger',
-    troops: [
-      { id: 'archer', stars: 2 },
-      { id: 'goblin', stars: 2 },
-      { id: 'dart-goblin', stars: 2 },
-      { id: 'royal-ghost', stars: 2 },
-      { id: 'princess', stars: 2 },
-      { id: 'golden-knight', stars: 2 },
+    "tier": "S",
+    "name": "Assassin Ranger",
+    "troops": [
+      { "id": "archer", "stars": 2 },
+      { "id": "goblin", "stars": 2 },
+      { "id": "dart-goblin", "stars": 2 },
+      { "id": "royal-ghost", "stars": 2 },
+      { "id": "princess", "stars": 2 },
+      { "id": "golden-knight", "stars": 2 }
     ],
-    ruler: 'royale-king',
-    alts: {
-      groups: [],
-    },
+    "ruler": "royale-king",
+    "alts": { "groups": [] }
   },
   {
-    tier: 'S',
-    name: 'Juggernaut Ranger',
-    troops: [
-      { id: 'archer', stars: 2 },
-      { id: 'goblin-machine', stars: 2 },
-      { id: 'dart-goblin', stars: 2 },
-      { id: 'princess', stars: 2 },
-      { id: 'knight', stars: 2 },
-      { id: 'archer-queen', stars: 2 },
+    "tier": "S",
+    "name": "Juggernaut Ranger",
+    "troops": [
+      { "id": "archer", "stars": 2 },
+      { "id": "goblin-machine", "stars": 2 },
+      { "id": "dart-goblin", "stars": 2 },
+      { "id": "princess", "stars": 2 },
+      { "id": "knight", "stars": 2 },
+      { "id": "archer-queen", "stars": 2 }
     ],
-    ruler: 'royale-king',
-    alts: {
-      groups: [
+    "ruler": "royale-king",
+    "alts": {
+      "groups": [
         {
-          replace: ['archer-queen'],
-          with: ['barbarian', 'valkyrie'],
+          "replace": ["archer-queen"],
+          "with": ["barbarian", "valkyrie"]
         },
         {
-          replace: ['knight'],
-          with: ['pekka', 'skeleton-king'],
-        },
-      ],
-    },
+          "replace": ["knight"],
+          "with": ["pekka", "skeleton-king"]
+        }
+      ]
+    }
   },
   {
-    tier: 'S',
-    name: 'Clan Avenger',
-    troops: [
-      { id: 'giant-skeleton', stars: 2 },
-      { id: 'skeleton-king', stars: 2 },
-      { id: 'valkyrie', stars: 2 },
-      { id: 'bandit', stars: 2 },
-      { id: 'pekka', stars: 2 },
-      { id: 'archer-queen', stars: 2 },
+    "tier": "S",
+    "name": "Clan Avenger",
+    "troops": [
+      { "id": "giant-skeleton", "stars": 2 },
+      { "id": "skeleton-king", "stars": 2 },
+      { "id": "valkyrie", "stars": 2 },
+      { "id": "bandit", "stars": 2 },
+      { "id": "pekka", "stars": 2 },
+      { "id": "archer-queen", "stars": 2 }
     ],
-    ruler: 'royale-king',
-    alts: {
-      groups: [
+    "ruler": "royale-king",
+    "alts": {
+      "groups": [
         {
-          replace: ['pekka'],
-          with: ['mega-knight'],
-        },
-      ],
-    },
+          "replace": ["pekka"],
+          "with": ["mega-knight"]
+        }
+      ]
+    }
   },
   {
-    tier: 'S',
-    name: 'Ace Thrower',
-    troops: [
-      { id: 'bomber', stars: 2 },
-      { id: 'spear-goblin', stars: 2 },
-      { id: 'executioner', stars: 2 },
-      { id: 'pekka', stars: 2 },
-      { id: 'mega-knight', stars: 2 },
-      { id: 'bandit', stars: 2 },
+    "tier": "S",
+    "name": "Ace Thrower",
+    "troops": [
+      { "id": "bomber", "stars": 2 },
+      { "id": "spear-goblin", "stars": 2 },
+      { "id": "executioner", "stars": 2 },
+      { "id": "pekka", "stars": 2 },
+      { "id": "mega-knight", "stars": 2 },
+      { "id": "bandit", "stars": 2 }
     ],
-    ruler: 'royale-king',
-    alts: {
-      groups: [],
-    },
+    "ruler": "royale-king",
+    "alts": { "groups": [] }
   },
   {
-    tier: 'A',
-    name: 'Noble Ranger',
-    troops: [
-      { id: 'archer', stars: 2 },
-      { id: 'knight', stars: 2 },
-      { id: 'golden-knight', stars: 2 },
-      { id: 'prince', stars: 2 },
-      { id: 'dart-goblin', stars: 2 },
-      { id: 'princess', stars: 2 },
+    "tier": "A",
+    "name": "Noble Ranger",
+    "troops": [
+      { "id": "archer", "stars": 2 },
+      { "id": "knight", "stars": 2 },
+      { "id": "golden-knight", "stars": 2 },
+      { "id": "prince", "stars": 2 },
+      { "id": "dart-goblin", "stars": 2 },
+      { "id": "princess", "stars": 2 }
     ],
-    ruler: 'spirit-empress',
-    alts: {
-      groups: [],
-    },
+    "ruler": "spirit-empress",
+    "alts": { "groups": [] }
   },
   {
-    tier: 'A',
-    name: 'Noble Assassin',
-    troops: [
-      { id: 'knight', stars: 2 },
-      { id: 'goblin', stars: 2 },
-      { id: 'prince', stars: 2 },
-      { id: 'royal-ghost', stars: 2 },
-      { id: 'princess', stars: 2 },
-      { id: 'golden-knight', stars: 2 },
+    "tier": "A",
+    "name": "Noble Assassin",
+    "troops": [
+      { "id": "knight", "stars": 2 },
+      { "id": "goblin", "stars": 2 },
+      { "id": "prince", "stars": 2 },
+      { "id": "royal-ghost", "stars": 2 },
+      { "id": "princess", "stars": 2 },
+      { "id": "golden-knight", "stars": 2 }
     ],
-    ruler: 'spirit-empress',
-    alts: {
-      groups: [],
-    },
+    "ruler": "spirit-empress",
+    "alts": { "groups": [] }
   },
   {
-    tier: 'A',
-    name: 'Undead Assassin',
-    troops: [
-      { id: 'bomber', stars: 2 },
-      { id: 'giant-skeleton', stars: 2 },
-      { id: 'royal-ghost', stars: 2 },
-      { id: 'skeleton-king', stars: 2 },
-      { id: 'golden-knight', stars: 2 },
-      { id: 'goblin', stars: 2 },
+    "tier": "A",
+    "name": "Undead Assassin",
+    "troops": [
+      { "id": "bomber", "stars": 2 },
+      { "id": "giant-skeleton", "stars": 2 },
+      { "id": "royal-ghost", "stars": 2 },
+      { "id": "skeleton-king", "stars": 2 },
+      { "id": "golden-knight", "stars": 2 },
+      { "id": "goblin", "stars": 2 }
     ],
-    ruler: 'spirit-empress',
-    alts: {
-      groups: [],
-    },
+    "ruler": "spirit-empress",
+    "alts": { "groups": [] }
   },
   {
-    tier: 'B',
-    name: 'Goblin Ranger',
-    troops: [
-      { id: 'goblin', stars: 2 },
-      { id: 'spear-goblin', stars: 2 },
-      { id: 'archer', stars: 2 },
-      { id: 'dart-goblin', stars: 2 },
-      { id: 'princess', stars: 2 },
-      { id: 'goblin-machine', stars: 2 },
+    "tier": "B",
+    "name": "Goblin Ranger",
+    "troops": [
+      { "id": "goblin", "stars": 2 },
+      { "id": "spear-goblin", "stars": 2 },
+      { "id": "archer", "stars": 2 },
+      { "id": "dart-goblin", "stars": 2 },
+      { "id": "princess", "stars": 2 },
+      { "id": "goblin-machine", "stars": 2 }
     ],
-    ruler: 'spirit-empress',
-    alts: {
-      groups: [],
-    },
+    "ruler": "spirit-empress",
+    "alts": { "groups": [] }
   },
   {
-    tier: 'B',
-    name: 'Goblin Assassin',
-    troops: [
-      { id: 'goblin', stars: 2 },
-      { id: 'spear-goblin', stars: 2 },
-      { id: 'golden-knight', stars: 2 },
-      { id: 'dart-goblin', stars: 2 },
-      { id: 'royal-ghost', stars: 2 },
-      { id: 'goblin-machine', stars: 2 },
+    "tier": "B",
+    "name": "Goblin Assassin",
+    "troops": [
+      { "id": "goblin", "stars": 2 },
+      { "id": "spear-goblin", "stars": 2 },
+      { "id": "golden-knight", "stars": 2 },
+      { "id": "dart-goblin", "stars": 2 },
+      { "id": "royal-ghost", "stars": 2 },
+      { "id": "goblin-machine", "stars": 2 }
     ],
-    ruler: 'spirit-empress',
-    alts: {
-      groups: [],
-    },
+    "ruler": "spirit-empress",
+    "alts": { "groups": [] }
   },
   {
-    tier: 'B',
-    name: 'Undead Thrower',
-    troops: [
-      { id: 'bomber', stars: 2 },
-      { id: 'giant-skeleton', stars: 2 },
-      { id: 'royal-ghost', stars: 2 },
-      { id: 'skeleton-king', stars: 2 },
-      { id: 'executioner', stars: 2 },
-      { id: 'spear-goblin', stars: 2 },
+    "tier": "B",
+    "name": "Undead Thrower",
+    "troops": [
+      { "id": "bomber", "stars": 2 },
+      { "id": "giant-skeleton", "stars": 2 },
+      { "id": "royal-ghost", "stars": 2 },
+      { "id": "skeleton-king", "stars": 2 },
+      { "id": "executioner", "stars": 2 },
+      { "id": "spear-goblin", "stars": 2 }
     ],
-    ruler: 'spirit-empress',
-    alts: {
-      groups: [],
-    },
+    "ruler": "spirit-empress",
+    "alts": { "groups": [] }
   },
   {
-    tier: 'B',
-    name: 'Goblin Thrower',
-    troops: [
-      { id: 'goblin', stars: 2 },
-      { id: 'spear-goblin', stars: 2 },
-      { id: 'bomber', stars: 2 },
-      { id: 'dart-goblin', stars: 2 },
-      { id: 'executioner', stars: 2 },
-      { id: 'goblin-machine', stars: 2 },
+    "tier": "B",
+    "name": "Goblin Thrower",
+    "troops": [
+      { "id": "goblin", "stars": 2 },
+      { "id": "spear-goblin", "stars": 2 },
+      { "id": "bomber", "stars": 2 },
+      { "id": "dart-goblin", "stars": 2 },
+      { "id": "executioner", "stars": 2 },
+      { "id": "goblin-machine", "stars": 2 }
     ],
-    ruler: 'spirit-empress',
-    alts: {
-      groups: [],
-    },
+    "ruler": "spirit-empress",
+    "alts": { "groups": [] }
   },
   {
-    tier: 'B',
-    name: 'Brawler Flex',
-    troops: [
-      { id: 'mega-knight', stars: 2 },
-      { id: 'giant-skeleton', stars: 2 },
-      { id: 'prince', stars: 2 },
-      { id: 'barbarian', stars: 2 },
-      { id: 'archer-queen', stars: 2 },
-      { id: 'executioner', stars: 2 },
+    "tier": "B",
+    "name": "Brawler Flex",
+    "troops": [
+      { "id": "mega-knight", "stars": 2 },
+      { "id": "giant-skeleton", "stars": 2 },
+      { "id": "prince", "stars": 2 },
+      { "id": "barbarian", "stars": 2 },
+      { "id": "archer-queen", "stars": 2 },
+      { "id": "executioner", "stars": 2 }
     ],
-    ruler: 'spirit-empress',
-    alts: {
-      groups: [
+    "ruler": "spirit-empress",
+    "alts": {
+      "groups": [
         {
-          replace: ['archer-queen', 'executioner'],
-          with: ['princess', 'bomber', 'archer'],
-        },
-      ],
-    },
+          "replace": ["archer-queen", "executioner"],
+            "with": ["princess", "bomber", "archer"]
+        }
+      ]
+    }
   },
   {
-    tier: 'B',
-    name: 'Juggernaut Flex',
-    troops: [
-      { id: 'goblin-machine', stars: 2 },
-      { id: 'pekka', stars: 2 },
-      { id: 'knight', stars: 2 },
-      { id: 'skeleton-king', stars: 2 },
-      { id: 'executioner', stars: 2 },
-      { id: 'princess', stars: 2 },
+    "tier": "B",
+    "name": "Juggernaut Flex",
+    "troops": [
+      { "id": "goblin-machine", "stars": 2 },
+      { "id": "pekka", "stars": 2 },
+      { "id": "knight", "stars": 2 },
+      { "id": "skeleton-king", "stars": 2 },
+      { "id": "executioner", "stars": 2 },
+      { "id": "princess", "stars": 2 }
     ],
-    ruler: 'spirit-empress',
-    alts: {
-      groups: [
+    "ruler": "spirit-empress",
+    "alts": {
+      "groups": [
         {
-          replace: ['princess', 'executioner'],
-          with: ['spear-goblin', 'goblin', 'bomber'],
-        },
-      ],
-    },
-  },
+          "replace": ["princess", "executioner"],
+          "with": ["spear-goblin", "goblin", "bomber"]
+        }
+      ]
+    }
+  }
 ]
